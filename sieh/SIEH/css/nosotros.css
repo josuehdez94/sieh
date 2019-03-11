@@ -1,0 +1,366 @@
+/*Azul #0C4B8B
+Verde #18A12E 
+gris #808080*/
+
+*{
+	padding: 0;
+	margin: 0;
+	font-family:oswald, Arial, Helvetica, sans-serif, cursive; 
+	overflow-x: hidden;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body{
+	background-color:;
+}
+
+
+
+header{
+	position: relative;
+	background-image:url(../img/contacto.jpg);
+	background-repeat:no-repeat;
+	background-size: cover;
+	margin: 0px;
+	height:280px;
+}
+	header #logo1{
+		position: relative;
+		top: 15px;
+		left: 5%;
+		width: 25%; 
+	}
+	/*.der{
+	background-color: rgba(0,0,0,0.5);
+	border-radius: 10px 10px 10px 10px;
+	position: relative;
+	left: 50%;
+	font-weight: bold;
+	text-align: justify;
+	width: 40%;
+	color: #fff;
+	padding: 10px;
+	z-index: 0;
+	}*/
+	.der{
+	background-color: rgba(0,0,0,0.5);
+	border-radius: 10px 10px 10px 10px;
+	position: static;
+	left: 0;
+	font-weight: bold;
+	text-align: justify;
+	width: 40%;
+	color: #fff;
+	padding: 10px;
+	z-index:-1;
+	}
+		.any{
+			font-size:3em;
+		}
+	header h1{
+		position: relative;
+		font-size:.7500em;
+		font-family: "Arial Black", Gadget, sans-serif;
+		left:5%;
+		color: #000;
+	}
+
+
+
+.menu {
+	position:relative;
+	background:#006633;
+	z-index:1;
+}
+	nav ul{
+		list-style:none;
+		overflow:hidden;
+	}
+		nav ul li{
+			float:left;
+		}
+		nav ul li a{
+			display:inline-block;
+			padding:20px;
+			padding-left: 16px;
+			font-weight: bold;
+			color:#fff;
+			text-decoration:none;
+		}
+			nav ul li a:hover{
+			  background-color: #006;
+			  font-size:16px
+			  
+			}
+			a:hover { color: blue; }
+			nav ul li:hover { font-size: 16px}
+.Izquierdo{
+	float:left;
+	width: 50%;
+}
+	.fonNeg{
+	background-color: #000;
+	color: #fff;
+	padding: 10px;
+	z-index: -1;
+}
+	.Izquierdo .centro{
+		width: 50%;
+		text-align: right;
+		position: relative;
+		left: 25%;
+		z-index: -1;
+	}
+	.Izquierdo img{
+		width: 100%;
+	}
+
+.Derecho{
+	float: right;
+	width: 50%;
+}
+.centro{
+	float: none;
+	width: 40%;
+}
+	.Derecho .der{
+	background-color: transparent;
+	position: absolute;
+	left: 756px;
+	font-weight: normal;
+	text-align: left;
+	width: 185px;
+	color: #000;
+	padding: 10px;
+	overflow-y: hidden;
+	top: 740px;
+	height: 194px;
+	}
+	.centro .cen{
+	background-color: transparent;
+	position: absolute;
+	left: 484px;
+	font-weight: normal;
+	text-align: left;
+	width: 248px;
+	color: #000;
+	padding: 10px;
+	overflow-y: hidden;
+	top: 744px;
+	height: 181px;
+	z-index: -1;
+	}
+		.Derecho .der:first-letter{
+			font-size: 4em;
+			float:center;
+			color: #18A12E;
+		}
+
+/*-------------Letra Capital-----------*/
+.cl:first-letter{
+	font-size:600%;
+	float:center;	
+	color:#18A12E;
+}
+
+/*-------------Sticky menu-----------*/
+.menu-fixed {
+position:fixed;
+/*z-index:1000;*/
+top:0;
+width:100%;
+/*max-width:1000px;
+box-shadow:0px 4px 3px rgba(0,0,0,.5);*/
+}
+
+hr {
+    height: 1px;
+    border: 3;
+	border-style:groove;
+    background-color: #FFF;
+}
+.footer1{
+	width:100%;
+	height:150px;
+	max-height:1000px;
+	background-color: #006633; 
+	
+}
+footer #logo2{
+		position:relative;
+		left: 90%;
+		 
+}
+footer h1{
+		position: absolute;
+		font-size:14px;
+		font-family: "Arial Black", Gadget, sans-serif;
+		left:20%;
+		color: #FFF;
+	}
+footer h3{
+		position: absolute;
+		font-size:14px;
+		font-family: "Arial Black", Gadget, sans-serif;
+		left:60%;
+		color: #FFF;
+	}
+	
+footer h2{
+		font-size:14px;
+		font: italic;
+		color: #FFF;
+	}
+.facebook{
+	position:absolute;
+	width:auto;
+	left:10%;
+	opacity:0.4;
+}
+footer dl{
+	position: absolute;
+	font-size: 11px;;
+	font-family:"Arial Black", Gadget, sans-serif;
+	left: 5%;
+	top: 1234px;
+}
+#columnas{
+   column-count:3;
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    -o-column-count: 3;
+   column-gap:20px;
+   -webkit-column-gap: 20px;
+    -moz-column-gap: 20px;
+    -o-column-gap: 20px;
+   column-rule:4px groove white;
+   -webkit-column-rule: 4px groove white;
+    -moz-column-rule: 4px groove white;
+    -o-column-rule: 4px groove white;
+   list-style: none;
+   font: message-box;
+}
+ .particles-js{
+	 width:100%;
+	 height:100%;
+ }
+ #particles-js{
+	 width:100%;
+	 height:100%;
+	
+ }
+.contenedor1{
+	padding:30px;
+	position:relative;
+	width:90%;
+	max-width:1000px;
+	margin:auto;
+	z-index:-1;
+}
+.principal{
+	padding:30px;
+	position:relative;
+	color:#000;
+}
+.principal article{
+	text-align:justify;
+	padding:20px;
+	background:#fff;
+	margin-bottom:20px;
+}
+.principal article p{
+	margin-bottom:20px;
+	line-height:24px;
+	text-align:justify;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+/*efecto parallax*/
+
+h2.introduccion {
+    font-size: 49px;
+    text-shadow: 0px 3px 4px rgba(0,0,0,.5);
+}
+.intro-unit {
+    color: #ddd;
+    padding: 60px;
+    text-align: center;
+}
+#intro {
+    background: url(../img/4.jpg) 50% 0 fixed;
+	background-repeat:no-repeat;
+	background-size:cover;
+    min-height: 500px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 100px 0;
+}
+
+#bloque1 {
+    background:rgba(24,8,33,.9);
+	box-shadow:0 5px 5px 3px rgba(0, 0, 0, 0.25);
+    margin: 0 auto;
+    width: 100%;
+	height:30%;
+	text-align: center;
+}
+#bloque-img2 {
+    background: url(../img/3.jpg) 50% 0 fixed ;
+	background-repeat:no-repeat;
+	background-size:cover;
+     height: 300px;
+    padding: 100px 0;
+}
+#bloque2 {
+    background:rgba(24,8,33,.9);
+	box-shadow:0 5px 5px 3px rgba(0, 0, 0, 0.25);
+    margin: 0 auto;
+    width: 100%;
+	color: #fff;
+	text-align:center;
+}
+#bloque-img3 {
+    background: url(../img/5.jpeg)50% 0 fixed ;
+	background-repeat:no-repeat;
+	background-size:cover;
+     height: 300px;
+    padding: 100px 0;
+}
+#bloque3 {
+    background:rgba(24,8,33,.9);
+	box-shadow:0 5px 5px 3px rgba(0, 0, 0, 0.25);
+    margin: 0 auto;
+    width: 100%;
+	color: #fff;
+	text-align:center;
+}
+#bloque-img4 {
+    background: url(../img/1.jpg)50% 0 fixed ;
+	background-repeat:no-repeat;
+	background-size:cover;
+     height: 300px;
+    padding: 100px 0;
+}
+#bloque4 {
+    background:rgba(24,8,33,.9);
+	box-shadow:0 5px 5px 3px rgba(0, 0, 0, 0.25);
+    margin: 0 auto;
+    width: 100%;
+	color: #fff;
+	text-align:center;
+}
+#bloque-img5 {
+    background: url(../img/2.jpg)50% 0 fixed ;
+	background-repeat:no-repeat;
+	background-size:cover;
+    height: 300px;
+    padding: 100px 0;
+}
+p{
+	alignment-adjust:central;
+	text-align:center;
+	font-size:20px;
+}
+
+
+/*efecto parallax*/	

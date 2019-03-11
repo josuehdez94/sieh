@@ -1,0 +1,168 @@
+/*Azul #0C4B8B
+Verde #18A12E 
+gris #808080*/
+
+*{
+	padding: 0;
+	margin: 0;
+	font-family:cursive; 
+	overflow-x: hidden;
+}
+body{
+	padding:5px;
+	margin: 5px;
+} 
+
+
+header{
+	position: relative;
+	background: url("../img/fondo3.jpg") no-repeat center center fixed;
+	background-size: cover;
+	margin: 0px;
+	height:680px;
+}
+	header #logo1{
+		position: relative;
+		top: 15px;
+		left: 10%;
+		width: 40%; 
+	}
+	/*.der{
+	background-color: rgba(0,0,0,0.5);
+	border-radius: 10px 10px 10px 10px;
+	position: relative;
+	left: 50%;
+	font-weight: bold;
+	text-align: justify;
+	width: 40%;
+	color: #fff;
+	padding: 10px;
+	z-index: 0;
+	}*/
+	.der{
+	background-color: rgba(0,0,0,0.5);
+	border-radius: 10px 10px 10px 10px;
+	position: static;
+	left: 0;
+	font-weight: bold;
+	text-align: justify;
+	width: 40%;
+	color: #fff;
+	padding: 10px;
+	z-index:-1;
+	}
+		.any{
+			font-size:3em;
+		}
+	header h1{
+		position: relative;
+		left:25%;
+		color:#0C4B8B;
+	}
+
+
+
+.menu {
+	background: #000;
+}
+	nav ul{
+		list-style:none;
+		overflow:hidden;
+	}
+		nav ul li{
+			float:left;
+		}
+		nav ul li a{
+			display:inline-block;
+			padding:20px;
+			padding-left: 16px;
+			font-weight: bold;
+			color:#fff;
+			text-decoration:none;
+		}
+			nav ul li a:hover{
+			  background-color: #00bb08;
+			  font-size:16px
+			  
+			}
+			a:hover { color: blue; }
+			nav ul li:hover { font-size: 16px}
+.Izquierdo{
+	float:left;
+	width: 50%;
+}
+	.fonNeg{
+	background-color: #000;
+	color: #fff;
+	padding: 10px;
+	z-index: -1;
+}
+	.Izquierdo .centro{
+		width: 50%;
+		text-align: right;
+		position: relative;
+		left: 25%;
+		z-index: -1;
+	}
+	.Izquierdo img{
+		width: 100%;
+	}
+
+.Derecho{
+	float: right;
+	width: 50%;
+}
+.centro{
+	float: none;
+	width: 40%;
+}
+	.Derecho .der{
+	background-color: transparent;
+	position: absolute;
+	left: 756px;
+	font-weight: normal;
+	text-align: left;
+	width: 185px;
+	color: #000;
+	padding: 10px;
+	overflow-y: hidden;
+	top: 740px;
+	height: 194px;
+	}
+	.centro .cen{
+	background-color: transparent;
+	position: absolute;
+	left: 484px;
+	font-weight: normal;
+	text-align: left;
+	width: 248px;
+	color: #000;
+	padding: 10px;
+	overflow-y: hidden;
+	top: 744px;
+	height: 181px;
+	z-index: -1;
+	}
+		.Derecho .der:first-letter{
+			font-size: 4em;
+			float:center;
+			color: #18A12E;
+		}
+
+
+/*-------------Letra Capital-----------*/
+.cl:first-letter{
+	font-size:600%;
+	float:center;	
+	color:#18A12E;
+}
+
+/*-------------Sticky menu-----------*/
+.menu-fixed {
+position:fixed;
+/*z-index:1000;*/
+top:0;
+width:100%;
+/*max-width:1000px;
+box-shadow:0px 4px 3px rgba(0,0,0,.5);*/
+}
